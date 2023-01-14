@@ -11,9 +11,7 @@ function getResponse() {
     }, (error) => {
         console.log(error.message, 'error');
     });
-
-
-    return false
 }
 
-getResponse()
+
+module.exports = getResponse

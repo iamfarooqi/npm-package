@@ -1,3 +1,4 @@
-const getResponse = require('npm-package')
+const getResponse = require('farooqi-npm-package')
 
-console.log(getResponse, "getResponse");
+
+getResponse()
